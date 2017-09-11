@@ -3,7 +3,7 @@
 
 
 <head>
-<script src="assets/javascript/game.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 
@@ -11,30 +11,27 @@
 </head>
 
 <body>
-	<div class="Jumbotron">
-		<h1>Reggae Hangman</h1>
-	</div>
-	<div class="container">
-		<h2>Guess the Reggae artist or song title</h2>
-
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 	
-		
-			<div id="mysteryWord">
-				<p>Place holder for hangman word/phrase</p>
+		<h1>Reggae Hangman</h1>
+	
+	<div class="container">
+			
+		<div></div>
+			<div>
+			<h2>Image</h2>
 			</div>
-			<div id="guessesMade">
-				<p>Letters guessed</p>
-			</div>	
-			<div id="guessesRemaining">	
-				<p>Number of guesses left</p>
+		</div>		
+		<div>
+			<p>PRESS ANY KET TO GET STARTED</p>
+			<p>CURRENT WORD:</p>
+			<p id="lettersGuessed">LETTERS GUESSED</p>
+			<p id="wrongGuess"></p>
+			<p id="guessesRemaing">10</p>
+			<p id="wins">NUMBER OF WINS: 0</p>
+			<p id="losses">NUMBER OF LOSSES: 0</p>
 			</div>
-			<div id="wins">
-				<p>Number of Wins</p>
-			</div>
-			<div id="losses">
-				<p>Number of Losses</p>
-			</div>
-		
+		</div>
 		
 	</div>
 
