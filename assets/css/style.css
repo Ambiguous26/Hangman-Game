@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	color: white;
+}
+.jumbotron {
+	color: black;
+}
+.btn.btn-default.btn-lg.btn-block {
+	
+	text-align: center;
+	font-size: 180%;
+	font-weight: bolder;
+}
+p {
+	margin: 10px;
+	font-size: 180%;
+}
